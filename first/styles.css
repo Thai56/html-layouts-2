@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+body {
+  /*padding:5px;*/
+  background: lightgray;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  /*line-height: 1px;*/
+  /*position:absolute;*/
+}
+.container {
+  width: 100vw;
+}
+.head {
+  /*text-align: center;*/
+  height:20vw;
+  width: 100%;
+}
+.box {
+  /*margin:15px;*/
+  height: 100%;
+  width: 30%;
+  float: left;
+  margin: 0 2% 0 0;
+}
+.one {
+  background: #b50e21;
+}
+.two {
+  background: #558fed;
+}
+.three {
+  background: #434347;
+}
+.text {
+width: 96%;
+padding: 3px;
+}
+
+.pre-footer {
+  height:30vh;
+  width: 95%;
+}
+.left {
+  height: 100%;
+  width:30%;
+  background: #b50e21;
+  float: left;
+}
+.right {
+  height:100%;
+  width:70%;
+  background: #558fed;
+  float: left;
+}
+.footer {
+  margin:2% 0 0 0;
+  height: 20vh;
+  width: 95%;
+  background: #558fed;
+}
+.footer-sect {
+  float:right;
+  height:100%;
+  width: 30%;
+  background: #b50e21;
+  position:relative;
+}
+.small-box {
+  height:100%;
+  margin:auto;
+  width:70%;
+  /*position:absolute;*/
+  background: #434347;
+}
